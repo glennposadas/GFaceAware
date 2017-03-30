@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4544974C1E8D59B7005CFCD5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4544974B1E8D59B7005CFCD5 /* CoreImage.framework */; };
+		45F906831E8D5CCA006920B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9066F1E8D5CCA006920B4 /* AppDelegate.swift */; };
+		45F906861E8D5CCA006920B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F906701E8D5CCA006920B4 /* Assets.xcassets */; };
+		45F906871E8D5CCA006920B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F906711E8D5CCA006920B4 /* LaunchScreen.storyboard */; };
+		45F906881E8D5CCA006920B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F906731E8D5CCA006920B4 /* Main.storyboard */; };
+		45F906891E8D5CCA006920B4 /* UIImage+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F906771E8D5CCA006920B4 /* UIImage+BetterFace.m */; };
+		45F9068A1E8D5CCA006920B4 /* UIImageView+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F906791E8D5CCA006920B4 /* UIImageView+BetterFace.m */; };
+		45F9068B1E8D5CCA006920B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45F9067B1E8D5CCA006920B4 /* Info.plist */; };
+		45F9068C1E8D5CCA006920B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9067C1E8D5CCA006920B4 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45020FD21E8D56C300419D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45020FB51E8D56C300419D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45020FBC1E8D56C300419D73;
+			remoteInfo = GFaceFaceAware;
+		};
+		45020FDD1E8D56C400419D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45020FB51E8D56C300419D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45020FBC1E8D56C300419D73;
+			remoteInfo = GFaceFaceAware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45020FBD1E8D56C300419D73 /* GFaceAware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GFaceAware.app; path = "/Users/glennposadas/Desktop/GIT/Others/gfaceware-ios/GFaceAware/build/Debug-iphoneos/GFaceAware.app"; sourceTree = "<absolute>"; };
+		4544974B1E8D59B7005CFCD5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		45F9066F1E8D5CCA006920B4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45F906701E8D5CCA006920B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F906721E8D5CCA006920B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45F906741E8D5CCA006920B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45F906761E8D5CCA006920B4 /* UIImage+BetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterFace.h"; sourceTree = "<group>"; };
+		45F906771E8D5CCA006920B4 /* UIImage+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterFace.m"; sourceTree = "<group>"; };
+		45F906781E8D5CCA006920B4 /* UIImageView+BetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BetterFace.h"; sourceTree = "<group>"; };
+		45F906791E8D5CCA006920B4 /* UIImageView+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BetterFace.m"; sourceTree = "<group>"; };
+		45F9067A1E8D5CCA006920B4 /* GFaceAware-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFaceAware-Bridging-Header.h"; sourceTree = "<group>"; };
+		45F9067B1E8D5CCA006920B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9067C1E8D5CCA006920B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F906841E8D5CCA006920B4 /* GFaceAwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GFaceAwareTests.xctest; path = "/Users/glennposadas/Desktop/GIT/Others/gfaceware-ios/GFaceAware/build/Debug-iphoneos/GFaceAwareTests.xctest"; sourceTree = "<absolute>"; };
+		45F906851E8D5CCA006920B4 /* GFaceAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GFaceAwareUITests.xctest; path = "/Users/glennposadas/Desktop/GIT/Others/gfaceware-ios/GFaceAware/build/Debug-iphoneos/GFaceAwareUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45020FBA1E8D56C300419D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4544974C1E8D59B7005CFCD5 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45020FCE1E8D56C300419D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45020FD91E8D56C400419D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45020FB41E8D56C300419D73 = {
+			isa = PBXGroup;
+			children = (
+				45020FBF1E8D56C300419D73 /* GFaceFaceAware */,
+				4544974A1E8D59B7005CFCD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45020FBF1E8D56C300419D73 /* GFaceFaceAware */ = {
+			isa = PBXGroup;
+			children = (
+				45F9066E1E8D5CCA006920B4 /* GFaceAware */,
+			);
+			path = GFaceFaceAware;
+			sourceTree = "<group>";
+		};
+		4544974A1E8D59B7005CFCD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4544974B1E8D59B7005CFCD5 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45F9066E1E8D5CCA006920B4 /* GFaceAware */ = {
+			isa = PBXGroup;
+			children = (
+				45F9066F1E8D5CCA006920B4 /* AppDelegate.swift */,
+				45F906701E8D5CCA006920B4 /* Assets.xcassets */,
+				45F906711E8D5CCA006920B4 /* LaunchScreen.storyboard */,
+				45F906731E8D5CCA006920B4 /* Main.storyboard */,
+				45F906751E8D5CCA006920B4 /* BetterFaceClass */,
+				45F9067A1E8D5CCA006920B4 /* GFaceAware-Bridging-Header.h */,
+				45F9067B1E8D5CCA006920B4 /* Info.plist */,
+				45F9067C1E8D5CCA006920B4 /* ViewController.swift */,
+			);
+			path = GFaceAware;
+			sourceTree = SOURCE_ROOT;
+		};
+		45F906751E8D5CCA006920B4 /* BetterFaceClass */ = {
+			isa = PBXGroup;
+			children = (
+				45F906761E8D5CCA006920B4 /* UIImage+BetterFace.h */,
+				45F906771E8D5CCA006920B4 /* UIImage+BetterFace.m */,
+				45F906781E8D5CCA006920B4 /* UIImageView+BetterFace.h */,
+				45F906791E8D5CCA006920B4 /* UIImageView+BetterFace.m */,
+			);
+			path = BetterFaceClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45020FBC1E8D56C300419D73 /* GFaceAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45020FE51E8D56C400419D73 /* Build configuration list for PBXNativeTarget "GFaceAware" */;
+			buildPhases = (
+				45020FB91E8D56C300419D73 /* Sources */,
+				45020FBA1E8D56C300419D73 /* Frameworks */,
+				45020FBB1E8D56C300419D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFaceAware;
+			productName = GFaceFaceAware;
+			productReference = 45020FBD1E8D56C300419D73 /* GFaceAware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45020FD01E8D56C300419D73 /* GFaceAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45020FE81E8D56C400419D73 /* Build configuration list for PBXNativeTarget "GFaceAwareTests" */;
+			buildPhases = (
+				45020FCD1E8D56C300419D73 /* Sources */,
+				45020FCE1E8D56C300419D73 /* Frameworks */,
+				45020FCF1E8D56C300419D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45020FD31E8D56C300419D73 /* PBXTargetDependency */,
+			);
+			name = GFaceAwareTests;
+			productName = GFaceFaceAwareTests;
+			productReference = 45F906841E8D5CCA006920B4 /* GFaceAwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45020FDB1E8D56C400419D73 /* GFaceAwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45020FEB1E8D56C400419D73 /* Build configuration list for PBXNativeTarget "GFaceAwareUITests" */;
+			buildPhases = (
+				45020FD81E8D56C400419D73 /* Sources */,
+				45020FD91E8D56C400419D73 /* Frameworks */,
+				45020FDA1E8D56C400419D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45020FDE1E8D56C400419D73 /* PBXTargetDependency */,
+			);
+			name = GFaceAwareUITests;
+			productName = GFaceFaceAwareUITests;
+			productReference = 45F906851E8D5CCA006920B4 /* GFaceAwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45020FB51E8D56C300419D73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Citus Labs";
+				TargetAttributes = {
+					45020FBC1E8D56C300419D73 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TRY4632Q68;
+						ProvisioningStyle = Automatic;
+					};
+					45020FD01E8D56C300419D73 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RE4YFXSB23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45020FBC1E8D56C300419D73;
+					};
+					45020FDB1E8D56C400419D73 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RE4YFXSB23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45020FBC1E8D56C300419D73;
+					};
+				};
+			};
+			buildConfigurationList = 45020FB81E8D56C300419D73 /* Build configuration list for PBXProject "GFaceAware" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45020FB41E8D56C300419D73;
+			productRefGroup = 45020FB41E8D56C300419D73;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45020FBC1E8D56C300419D73 /* GFaceAware */,
+				45020FD01E8D56C300419D73 /* GFaceAwareTests */,
+				45020FDB1E8D56C400419D73 /* GFaceAwareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45020FBB1E8D56C300419D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9068B1E8D5CCA006920B4 /* Info.plist in Resources */,
+				45F906881E8D5CCA006920B4 /* Main.storyboard in Resources */,
+				45F906861E8D5CCA006920B4 /* Assets.xcassets in Resources */,
+				45F906871E8D5CCA006920B4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45020FCF1E8D56C300419D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45020FDA1E8D56C400419D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45020FB91E8D56C300419D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F906891E8D5CCA006920B4 /* UIImage+BetterFace.m in Sources */,
+				45F906831E8D5CCA006920B4 /* AppDelegate.swift in Sources */,
+				45F9068C1E8D5CCA006920B4 /* ViewController.swift in Sources */,
+				45F9068A1E8D5CCA006920B4 /* UIImageView+BetterFace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45020FCD1E8D56C300419D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45020FD81E8D56C400419D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45020FD31E8D56C300419D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45020FBC1E8D56C300419D73 /* GFaceAware */;
+			targetProxy = 45020FD21E8D56C300419D73 /* PBXContainerItemProxy */;
+		};
+		45020FDE1E8D56C400419D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45020FBC1E8D56C300419D73 /* GFaceAware */;
+			targetProxy = 45020FDD1E8D56C400419D73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45F906711E8D5CCA006920B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F906721E8D5CCA006920B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45F906731E8D5CCA006920B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F906741E8D5CCA006920B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45020FE31E8D56C400419D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45020FE41E8D56C400419D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45020FE61E8D56C400419D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TRY4632Q68;
+				INFOPLIST_FILE = GFaceAware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.gfaceaware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GFaceAware/GFaceAware-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45020FE71E8D56C400419D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TRY4632Q68;
+				INFOPLIST_FILE = GFaceAware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.gfaceaware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GFaceAware/GFaceAware-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45020FE91E8D56C400419D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GFaceFaceAwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GFaceFaceAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFaceAware.app/GFaceAware";
+			};
+			name = Debug;
+		};
+		45020FEA1E8D56C400419D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GFaceFaceAwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GFaceFaceAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFaceAware.app/GFaceAware";
+			};
+			name = Release;
+		};
+		45020FEC1E8D56C400419D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GFaceFaceAwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GFaceFaceAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GFaceFaceAware;
+			};
+			name = Debug;
+		};
+		45020FED1E8D56C400419D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RE4YFXSB23;
+				INFOPLIST_FILE = GFaceFaceAwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.com.cituslabs.GFaceFaceAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GFaceFaceAware;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45020FB81E8D56C300419D73 /* Build configuration list for PBXProject "GFaceAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45020FE31E8D56C400419D73 /* Debug */,
+				45020FE41E8D56C400419D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45020FE51E8D56C400419D73 /* Build configuration list for PBXNativeTarget "GFaceAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45020FE61E8D56C400419D73 /* Debug */,
+				45020FE71E8D56C400419D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45020FE81E8D56C400419D73 /* Build configuration list for PBXNativeTarget "GFaceAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45020FE91E8D56C400419D73 /* Debug */,
+				45020FEA1E8D56C400419D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45020FEB1E8D56C400419D73 /* Build configuration list for PBXNativeTarget "GFaceAwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45020FEC1E8D56C400419D73 /* Debug */,
+				45020FED1E8D56C400419D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45020FB51E8D56C300419D73 /* Project object */;
+}
